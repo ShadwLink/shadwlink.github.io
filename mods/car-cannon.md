@@ -1,0 +1,10 @@
+---
+title: 'Car Cannon'
+layout: page
+---
+
+This is a small mod I created when Vice City was still “hot”. Drive your car into the cannon and youll be shot to the other end of the island. I placed the cannon behind the docks on the second island. (I know it was stupid to remove it from the mansion).
+
+<iframe allowfullscreen="" class="youtube-player youtuber" frameborder="0" mozallowfullscreen="" src="http://www.youtube.com/embed/Am_vaO3YNnQ?rel=0&fs=1" type="text/html" webkitallowfullscreen=""></iframe>
+
+[Download here](http://www.gtagarage.com/mods/show.php?id=1619)
