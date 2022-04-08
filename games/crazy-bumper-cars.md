@@ -80,6 +80,6 @@ We’ve dumped the Hold the Flag gamemode and decided to go for “Bomb Mania”
 
 **Final Version**
 
-<iframe allowfullscreen="" frameborder="0" height="349" loading="lazy" src="http://www.youtube.com/embed/HhwTrs3v4dY" width="560"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HhwTrs3v4dY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ![](/assets/images/crazybumbercars/cbc_stand.jpg)
