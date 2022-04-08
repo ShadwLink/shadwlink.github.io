@@ -4,4 +4,4 @@ title: Tools
 permalink: /tools/
 ---
 
-{% include subpage.md %}
+{% include subpage.html %}

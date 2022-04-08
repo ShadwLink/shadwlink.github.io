@@ -1,10 +1,7 @@
 ---
-id: 157
 title: DFF2WDR
-date: '2010-10-01T16:14:07+02:00'
-author: Shadow-Link
+description: 'Converts DFF to WDR files.'
 layout: page
-guid: 'http://shadow-link.nl/sl_nl_3/?page_id=157'
 ---
 
 ![](/assets/images/dff2wdr//dff2wdr_header.png)

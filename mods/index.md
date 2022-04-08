@@ -4,4 +4,4 @@ title: Mods
 permalink: /mods/
 ---
 
-{% include subpage.md %}
+{% include subpage.html %}

@@ -1,0 +1,22 @@
+<ul class="post-list">
+    {%- for sub_page in site.pages -%}
+    {%- if sub_page.url contains page.url and sub_page.url != page.url -%}
+
+    <li>
+        <a href="{{ sub_page.url }}">
+            <h4 class="post-title">{{ sub_page.title }}
+                {%- if sub_page.github -%}
+                &nbsp;
+                <svg class="svg-icon">
+                    <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+                </svg>
+                {%- endif -%}
+            </h4>
+        </a>
+        <div class="post-content">
+            {{ sub_page.description }}
+        </div>
+    </li>
+    {%- endif -%}
+    {%- endfor -%}
+</ul>

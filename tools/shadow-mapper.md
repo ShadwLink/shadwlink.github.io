@@ -1,5 +1,7 @@
 ---
 title: 'Shadow Mapper'
+github: https://github.com/ShadwLink/Shadow-Mapper
+description: 'Basic map editor for GTA: IV.'
 layout: page
 ---
 
@@ -14,7 +16,7 @@ Downloads (If a version doesnt work try the other one):
 - [Download x86](/assets/downloads/Shadow-Mapper.rar)
 - [Download x64](/assets/downloads/Shadow-Mapper_x64.rar) 
 - [Download Batch file pack](/assets/downloads/Shadow-Mapper-BatchFilePack.rar)  
-- [Shadow-Mapper source on GitHub](https://github.com/ShadwLink/ShadowMapper "Shadow-Mapper on GitHub")
+- [Shadow-Mapper source on GitHub]({{ page.github }} "Shadow-Mapper on GitHub")
 
 You can post Comments/Requests/Bug Reports/etc in [this](http://www.gtaforums.com/index.php?showtopic=428895) topic!
 

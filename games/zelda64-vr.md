@@ -1,5 +1,6 @@
 ---
 title: 'Zelda64 VR'
+description: 'VR implementation of The legend of Zelda Ocarina of Time.'
 layout: page
 ---
 

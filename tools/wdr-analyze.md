@@ -1,5 +1,6 @@
 ---
 title: 'WDR Analyze'
+description: 'Analyzer for GTA: IV 3D model files (WDR).'
 layout: page
 ---
 

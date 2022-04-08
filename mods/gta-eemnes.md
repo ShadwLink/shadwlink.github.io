@@ -1,5 +1,6 @@
 ---
 title: 'GTA Eemnes'
+description: 'A total conversion mod that puts the city of Eemnes into the GTA engine.'
 layout: page
 ---
 

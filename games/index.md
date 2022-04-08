@@ -4,4 +4,4 @@ title: Games
 permalink: /games/
 ---
 
-{% include subpage.md %}
+{% include subpage.html %}

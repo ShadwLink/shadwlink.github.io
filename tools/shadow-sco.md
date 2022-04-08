@@ -1,5 +1,7 @@
 ---
 title: 'Shadow-SCO'
+description: 'Basic mission script compiler for GTA:IV SCO files.'
+github: https://github.com/ShadwLink/ShadowSCO
 layout: page
 ---
 

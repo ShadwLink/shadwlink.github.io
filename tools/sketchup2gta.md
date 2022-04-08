@@ -1,5 +1,7 @@
 ---
 title: Sketchup2GTA
+description: 'SketchUp exporter that exports SketchUp models to GTA: VC, IV and V.'
+github: https://github.com/ShadwLink/Sketchup2GTA
 layout: page
 ---
 

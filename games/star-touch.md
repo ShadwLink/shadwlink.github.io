@@ -1,5 +1,6 @@
 ---
 title: 'Star Touch'
+description: 'Interactive game that teaches constellations.'
 layout: page
 ---
 

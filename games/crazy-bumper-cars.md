@@ -1,5 +1,6 @@
 ---
 title: 'Crazy Bumper Cars'
+description: 'A fun king of the hill game with power-ups!'
 layout: page
 ---
 
