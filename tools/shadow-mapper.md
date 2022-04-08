@@ -20,6 +20,8 @@ You can post Comments/Requests/Bug Reports/etc in [this](http://www.gtaforums.co
 
 **NOTE**: This is a public beta, and as such it is crucial that you backup all files that you are going to edit with Shadow Mapper! I wont be held responsible for any loss of files that may result due to use of Shadow Mapper.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z9xvzsiwqoY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 **Requirements**  
 – You need to have Java installed  
 – You need Java(TM) Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files 6, you can download this from:  
