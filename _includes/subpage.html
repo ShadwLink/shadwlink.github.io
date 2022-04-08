@@ -1,5 +1,6 @@
 <ul class="post-list">
-    {%- for sub_page in site.pages -%}
+    {% assign sub_pages = site.pages | sort: "order" %}
+    {%- for sub_page in sub_pages -%}
     {%- if sub_page.url contains page.url and sub_page.url != page.url -%}
 
     <li>

@@ -1,4 +1,5 @@
 ---
+order: 8
 title: 'Shadows Plugin'
 description: 'GTA: IV Exporter for 3DS Max.'
 layout: page
