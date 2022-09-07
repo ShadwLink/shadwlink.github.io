@@ -18,7 +18,7 @@ Checked out the [git repository](https://github.com/ShadwLink/Shadow-Mapper) and
 So I decided to take up the challenge and see if I could make it run or at least build after all those years.
 
 **Step 1 - Replace build system**
-The old version is Shadow-Mapper was build using netbeans and used the netbeans project files and way of building.
+The old version of Shadow-Mapper was build using netbeans and used the netbeans project files and way of building.
 I've decided to use Gradle as a build/dependency management system. Gradle is supported by many Java IDE's and has great support in Intellij.
 After settings up the Gradle build file the project could still not build.
 
