@@ -3,7 +3,7 @@ title: 'N64 save file formats'
 date: '2023-03-11T07:00:00+02:00'
 author: Shadow-Link
 layout: post
-permalink: /shadow-mapper-lives/
+permalink: /n64-save-file-formats/
 categories:
     - Games
 tags:
