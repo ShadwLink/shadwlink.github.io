@@ -22,5 +22,8 @@ Of-course there are some limitations, I am not able to read the state of the gam
 
 Take a little sneak peek at the current development screenshots:
 
+_The overview screen that displays all supported games and their status_
 ![TrophyOverview](/assets/images/post/n64-trophies-overview.png)
+
+_The game details screen that displays the trophies_
 ![TrophyGameStats](/assets/images/post/n64-trophies-game-stats.png)
