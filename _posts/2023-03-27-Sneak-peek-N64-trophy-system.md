@@ -1,6 +1,6 @@
 ---
 title: 'Sneak peek: N64 Trophy system for Everdrive 64'
-date: '2023-03-27T20:00:00+02:00'
+date: '2023-03-27T17:00:00+02:00'
 author: Shadow-Link
 layout: post
 permalink: /sneak-peek-n64-trophy-system/
