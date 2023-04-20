@@ -12,7 +12,7 @@ tags:
     - tools
 ---
 
-If you've been wondering why I was researching N64 save file formats. It's not because I want to cheat my way to the end of the game (in fact I hate cheating). But because I've always been a fan of Achievements and Trophies as seen on the Xbox and Playstation. They add some insentive to finish a game for me and shows a nice overview of which games I completed and liked enough to spend my time on.
+If you've been wondering why I was researching N64 save file formats. It's not because I want to cheat my way to the end of the game (where is the fun in that?). But because I've always been a fan of Achievements and Trophies as seen on the Xbox and Playstation. They add some insentive to finish a game for me and shows a nice overview of which games I completed and liked enough to spend my time on.
 
 Whenever I play on a retro console (or even the Nintendo Switch) I feel like there is something missing. I still finish most of the Nintendo games (they make great quality games that deserve to be completed), but it would be nice to see these stats in an overview.
 
