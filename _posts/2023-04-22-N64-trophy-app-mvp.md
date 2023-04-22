@@ -1,6 +1,6 @@
 ---
 title: 'N64 Trophy app MVP'
-date: '2023-04-22T08:00:00+02:00'
+date: '2023-04-22T07:00:00+02:00'
 author: Shadow-Link
 layout: post
 permalink: /n64-trophy-app-mvp/
