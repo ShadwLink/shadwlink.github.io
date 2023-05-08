@@ -12,6 +12,6 @@ tags:
     - tools
 ---
 
-After careful consideration and deliberation, I am pleased to announce that the minimum viable product (MVP) for the trophy application has been finalized. However, there are still a few tasks that need to be completed to achieve this MVP, including N64 game detection outside of the root directory, finalizing the list of trophies for these games, and creating a proper UI.
+I'm happy to say that I've got the minimum viable product (MVP) for our trophy app all set. But, I still need to finish up a few things before it's completely good to go. This includes being able to detect N64 games even if they're not in the root folder, figuring out all the trophies for the current set of games, and tweaking the user interface.
 
-Despite these remaining tasks, the MVP of the trophy application will still feature automatic game detection and three tiers of awards - Bronze, Silver, and Gold - with plans to introduce Platinum awards at a later date. Additionally, the application will launch with support for a number of iconic games, including 1080 Snowboarding (US), Mario Kart 64 (US), Super Mario 64 (US), Super Smash Bros (US), and The Legend of Zelda: Ocarina of Time (US).
+Don't worry, the trophy app MVP will still be pretty sweet. It'll automatically find your games and give you three types of trophies: Bronze, Silver, and Gold (with plans for Platinum later on). Plus, when it launches, it'll already support some classic games like 1080 Snowboarding (US), Mario Kart 64 (US), Super Mario 64 (US), Super Smash Bros (US), and The Legend of Zelda: Ocarina of Time (US).
