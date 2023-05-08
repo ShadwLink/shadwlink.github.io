@@ -1,5 +1,5 @@
 ---
-title: 'N64 Trophy app MVP'
+title: 'N64 Trophy app status update'
 date: '2023-05-08T06:30:00+02:00'
 author: Shadow-Link
 layout: post
