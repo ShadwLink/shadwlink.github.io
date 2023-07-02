@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="post-content">
+    <ul class="post-list">
+        {% assign sub_pages = site.pages | sort: "order" %}
+        {%- for sub_page in sub_pages -%}
+        {%- if sub_page.url contains page.url and sub_page.url != page.url -%}
+
+        <li>
+            <a href="{{ sub_page.url }}">
+                <h4 class="post-title">{{ sub_page.title }}
+                    {%- if sub_page.github -%}
+                    &nbsp;
+                    <svg class="svg-icon">
+                        <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+                    </svg>
+                    {%- endif -%}
+                </h4>
+            </a>
+            <div class="post-content">
+                {{ sub_page.description }}
+            </div>
+        </li>
+        {%- endif -%}
+        {%- endfor -%}
+    </ul>
+</div>

@@ -3,6 +3,7 @@ order: 8
 title: 'Shadows Plugin'
 description: 'GTA: IV Exporter for 3DS Max.'
 layout: project
+permalink: /tools/shadow-plugin/
 ---
 
 ![Shadows Plugins header](/assets/images/shadows-plugin/shadows_plugins_header.gif)

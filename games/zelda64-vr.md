@@ -2,6 +2,7 @@
 title: 'Zelda64 VR'
 description: 'VR implementation of The legend of Zelda Ocarina of Time.'
 layout: project
+permalink: /games/zelda64-vr/
 ---
 
 I’ve played and completed OoT hundreds of times on the N64 and Gamecube, but I could never have thought I would once play it in VR. I’ve been working on a project that loads the N64 Zelda rom and makes it playable with the Rift. For now it only loads the map and gives you the ability to walk around. The rendering is still a bit off, but don’t worry about that, I will get it right eventually. Enough talk, here are some screenshots:

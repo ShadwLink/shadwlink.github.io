@@ -1,7 +1,5 @@
 ---
-layout: page
+layout: project_list
 title: Games
 permalink: /games/
 ---
-
-{% include subpage.html %}

@@ -2,6 +2,7 @@
 title: 'Crazy Bumper Cars'
 description: 'A fun king of the hill game with power-ups!'
 layout: project
+permalink: /games/crazy-bumper-cars/
 ---
 
 ![](/assets/images/crazybumbercars/cbc_logo.png)

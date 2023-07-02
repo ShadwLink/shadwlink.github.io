@@ -1,7 +1,5 @@
 ---
-layout: page
+layout: project_list
 title: Mods
 permalink: /mods/
 ---
-
-{% include subpage.html %}

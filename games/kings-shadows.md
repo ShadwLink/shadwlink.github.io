@@ -2,6 +2,7 @@
 title: 'Kings Shadows (Game Jam)'
 description: 'Result of a 5 day Game-Jam.'
 layout: project
+permalink: /games/kings-shadows/
 ---
 
 ![](/assets/images/kings-shadows/kings-shadows-logo.png)

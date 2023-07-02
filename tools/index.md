@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Tools
 permalink: /tools/
+layout: project_list
 ---
-
-{% include subpage.html %}
