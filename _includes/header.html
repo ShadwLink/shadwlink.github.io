@@ -5,11 +5,15 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
     {%- if page.title -%}
-      {%- if page.url contains '.html' -%}
+      {% if page.layout == "project" %}
+        <a class="site-title" rel="author" href="{{ "/" | relative_url }}">Shadow-Link's {{ page.title | escape }}</a>
+    {% elsif page.layout == "post" %}
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    {% elsif page.url contains '.html' %}
         <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-      {%- else -%}
+      {% else %}
         <a class="site-title" rel="author" href="{{ "/" | relative_url }}">Shadow-Link's {{ page.title | escape | downcase }}</a>
-      {%- endif -%}
+      {% endif %}
     {%- else -%}
       <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {%- endif -%}
