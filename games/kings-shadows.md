@@ -1,7 +1,7 @@
 ---
 title: 'Kings Shadows (Game Jam)'
 description: 'Result of a 5 day Game-Jam.'
-layout: page
+layout: project
 ---
 
 ![](/assets/images/kings-shadows/kings-shadows-logo.png)

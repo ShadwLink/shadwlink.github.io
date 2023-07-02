@@ -3,11 +3,10 @@ order: 1
 title: Sketchup2GTA
 description: 'SketchUp exporter that exports SketchUp models to GTA: VC, IV and V.'
 github: https://github.com/ShadwLink/Sketchup2GTA
-layout: page
+layout: project
 ---
 
 Latest release: [https://github.com/ShadwLink/Sketchup2GTA/releases](https://github.com/ShadwLink/Sketchup2GTA/releases)  
-Source: [https://github.com/ShadwLink/Sketchup2GTA/](https://github.com/ShadwLink/Sketchup2GTA/)
 
 You can post Comments/Requests/Bug Reports/etc in the comments
 

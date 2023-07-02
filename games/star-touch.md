@@ -1,7 +1,7 @@
 ---
 title: 'Star Touch'
 description: 'Interactive game that teaches constellations.'
-layout: page
+layout: project
 ---
 
 ![StarTouch Header](/assets/images/startouch/header.png)

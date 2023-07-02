@@ -2,7 +2,7 @@
 order: 7
 title: DFF2WDR
 description: 'Converts DFF to WDR files.'
-layout: page
+layout: project
 ---
 
 ![](/assets/images/dff2wdr//dff2wdr_header.png)

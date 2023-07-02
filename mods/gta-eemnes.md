@@ -1,7 +1,7 @@
 ---
 title: 'GTA Eemnes'
 description: 'A total conversion mod that puts the city of Eemnes into the GTA engine.'
-layout: page
+layout: project
 ---
 
 GTA Eemnes is a total conversion of my hometown in the GTA IV Engine.
