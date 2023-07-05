@@ -4,6 +4,7 @@ title: DFF2WDR
 description: 'Converts DFF to WDR files.'
 layout: project
 permalink: /tools/dff2wdr/
+download: /assets/downloads/dff2wdr.zip
 ---
 
 ![](/assets/images/dff2wdr//dff2wdr_header.png)

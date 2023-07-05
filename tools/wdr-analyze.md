@@ -4,6 +4,7 @@ title: 'WDR Analyze'
 description: 'Analyzer for GTA: IV 3D model files (WDR).'
 layout: project
 permalink: /tools/wdr-analyze/
+download: /assets/downloads/WDRAnalyze.zip
 ---
 
 <span style="color: #ff0000;">**Canceled**</span>

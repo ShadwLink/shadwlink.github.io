@@ -3,6 +3,7 @@ order: 0
 title: 'Retro Trophies 64'
 description: 'Trophy system for the N64 EverDrive'
 github: https://github.com/KilianSteenman/Retro-Trophies-64
+download: https://github.com/KilianSteenman/Retro-Trophies-64/releases
 layout: project
 permalink: /tools/retro-trophies-64/
 ---

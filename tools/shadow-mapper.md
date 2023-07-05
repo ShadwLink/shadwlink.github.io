@@ -5,6 +5,7 @@ github: https://github.com/ShadwLink/Shadow-Mapper
 description: 'Basic map editor for GTA: IV.'
 layout: project
 permalink: /tools/shadow-mapper/
+download: /assets/downloads/Shadow-Mapper_x64.rar
 ---
 
 ![](/assets/images/shadow-mapper/shadow_mapper_header.png)
