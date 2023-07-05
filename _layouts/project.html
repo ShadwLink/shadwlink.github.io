@@ -7,18 +7,26 @@ layout: default
 
 {%- if page.github -%}
 <p>
+<ul>
     {%- if page.github -%}
-    <a href="{{ page.github }}">
-        <svg class="svg-icon">
-            <use xlink:href="/assets/minima-social-icons.svg#github"></use>
-        </svg>Github Repository
-    </a>
+    <li>
+        <a href="{{ page.github }}">
+            <svg class="svg-icon">
+                <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+            </svg>
+            Github Repository
+        </a>
+    </li>
     {%- endif -%}
+
     {%- if page.download -%}
-    <a href="{{ page.download }}">
-        Download
-    </a>
+    <li>
+        <a href="{{ page.download }}">
+            Download
+        </a>
+    </li>
     {%- endif -%}
+</ul>
 </p>
 {%- endif -%}
 
