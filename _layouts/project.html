@@ -5,7 +5,7 @@ layout: default
 <h1 class="page-heading">{{ page.title }}</h1>
 {%- endif -%}
 
-{%- if page.github -%}
+{%- if page.github or page.download -%}
 <p>
 <ul>
     {%- if page.github -%}
