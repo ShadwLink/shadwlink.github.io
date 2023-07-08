@@ -14,8 +14,6 @@ download: /assets/downloads/dff2wdr.zip
 Current version: 0.1b Beta  
 Date: 16.07.2009
 
-[Download](/assets/downloads/dff2wdr.zip)
-
 You can post Comments/Requests/Bug Reports/etc in [this](http://www.gtaforums.com/index.php?showtopic=418034) topic!
 
 **NOTE**: This is a public beta, and as such it is crucial that you backup all files you replace with models created with dff2wdr! I wont be held responsible for any loss of files that may result due to use of dff2wdr.
