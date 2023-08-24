@@ -1,5 +1,5 @@
 ---
-title: 'It's been a busy month!'
+title: It's been a busy month!
 date: '2023-08-24T12:50:00+02:00'
 author: Shadow-Link
 layout: post
