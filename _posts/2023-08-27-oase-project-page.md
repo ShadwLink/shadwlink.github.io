@@ -14,4 +14,6 @@ tags:
     - vc
 ---
 
-The OASE project page is up. It doesn't contain much information yet, but I'll try to add more info regarding the project, maybe even make it a bit of a devlog.
+The [OASE project page](/games/oase/) is up. It doesn't contain much information yet, but I'll try to add more info regarding the project, maybe even make it a bit of a devlog.
+
+
