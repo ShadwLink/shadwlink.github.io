@@ -21,6 +21,6 @@ To start I did a little game jam challenge. I had a look at all previous Ludum D
 
 Then something big happened; I became dad for the second time 🥰! As you can imagine taking care of the little girl takes up most of my time!
 
-I did find some time to start rewriting the renderer of OASE, I should really creats a project page for OASE and create more videos.
+I did find some time to start rewriting the renderer of OASE, I should really create a project page for OASE and create more videos.
 
 This is it for now, will write another post when the dust settles.
