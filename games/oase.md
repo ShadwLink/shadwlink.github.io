@@ -18,3 +18,5 @@ Currently, the project can render the III and VC map, play animations and run a 
 **Media**
 
 A few years ago I've created and uploaded a couple of short clips that showed the first progress. They can be found on my [YouTube channel](https://www.youtube.com/@Kielevent/playlists).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=eLvtO6_5nYv72RHc&amp;list=PLOxyV5A-M9P38WibzT8wnz0Teq9oMzqbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
