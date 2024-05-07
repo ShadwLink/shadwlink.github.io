@@ -14,7 +14,7 @@ tags:
     - gta3sc
     - shadow-msp
 ---
-I already mentioned in my previous post, but I am tired of the Chip-8 on N64 project... I got distracted once again.
+I already mentioned it in my previous post, but I am tired of the Chip-8 on N64 project... I got distracted once again.
 
 This time by an old favorite of mine; Shadow-MSP. The Intellij plugin that I build to support GTA 3D mission scripting. 
 
