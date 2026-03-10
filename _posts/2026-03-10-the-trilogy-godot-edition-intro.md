@@ -13,13 +13,14 @@ tags:
   - gta
   - game-dev
   - godot
+serie: the-trilogy-godot-edition
 ---
 
 As mentioned in my last post (which I apparently posted over a year ago!) I've gotten interested in the awesome open
 source game engine [Godot](https://godotengine.org).
 
 In the past year I've done some simple projects with Godot, but now it's time to pick up something bigger. As you might
-know I've worked on a project called [OASE](OASE) in the past. This project aimed to create an Open Source
+know I've worked on a project called [OASE](/games/oase/) in the past. This project aimed to create an Open Source
 implementation of the GTA Trilogy. It was able to load the map and some missions pretty decently, but it always felt I
 had to do everything from scratch, writing a graphics engine, an audio engine and all the other things that make up an
 engine. The engine became a big mess, had a lot of memory issues (in the current state it basically crashes after
