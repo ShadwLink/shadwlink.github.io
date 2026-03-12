@@ -21,7 +21,7 @@ To load a GTA model we first need to understand the original engine this game us
 
 Lucky for us this means [a lot](https://en.wikipedia.org/wiki/RenderWare#File_formats) is [known](https://gtamods.com/wiki/RenderWare_binary_stream_file) about the file formats used by RW based games. Entire tools and libraries where build to inspect the contents of RW files. One of which is called [RwAnalyze](http://steve-m.com/downloads/tools/rwanalyze/), this is still one of the best tools (22 years old by now!) to get a grasp of the basic structure of RW files.
 
-![Screenshot of RW Analyze 0.4](assets/images/the-trilogy-godot-edition/part-1-rwanalyze.jpg)
+![Screenshot of RW Analyze 0.4](/assets/images/the-trilogy-godot-edition/part-1-rwanalyze.jpg)
 
 As you can see in the above screenshot a dff file is basically a lot of 3D data stored in a tree like structure. 
 
@@ -64,28 +64,28 @@ A frame has a name, positioning data and a parent ID. Frames are used to build u
 
 In our case of `arrow.dff` this frame contains the name "arrow".
 
-#### RwGeometryList
+__RwGeometryList__
 List of `Geometry`
 
-#### RwGeometry
+__RwGeometry__
 The visual representation of the model. Contains the vertex, polygon and material data. The Godot equivalent of a `Mesh`.
 
-#### RwMaterialList
+__RwMaterialList__
 List of materials
 
-#### RwMaterial
+__RwMaterial__
 Material definition, contains the texture name, colors, alpha name etc.
 
-#### RwBinMeshPlg
+__RwBinMeshPlg__
 Plugin that defines how the geometry is split by materials. Which vertices / polygons use which material. Similar to a `Surface` on a `Mesh` in Godot.
 
-#### RwMorphPlg
+__RwMorphPlg__
 I currently don't support this in my parser, if we need it we'll probably get to it at some point.
 
-#### RwAtomic
+__RwAtomic__
 An atomic matches geometries to a frame. Making it possible to create a hierarchy of geometry. We'll need this info to setup the mesh / node hierarchy in Godot.
 
-#### RwMatEffectsPlg
+__RwMatEffectsPlg__
 I currently don't support this in my parser, if we need it we'll probably get to it at some point.
 
 ## Godot
@@ -109,6 +109,6 @@ Once all meshes and materials are created we have to reconstruct the hierarchy. 
 
 With some trial and error this is the result:
 
-![Screenshot of the GTA: VC arrow model inside Godot](assets/images/the-trilogy-godot-edition/part-1-arrow.png)
+![Screenshot of the GTA: VC arrow model inside Godot](/assets/images/the-trilogy-godot-edition/part-1-arrow.png)
 
 I hope you enjoyed this first part of the series. In the next part we'll take a look at loading more advanced models.
