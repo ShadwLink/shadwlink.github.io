@@ -25,7 +25,7 @@ implementation of the GTA Trilogy. It was able to load the map and some missions
 had to do everything from scratch, writing a graphics engine, an audio engine and all the other things that make up an
 engine. The engine became a big mess, had a lot of memory issues (in the current state it basically crashes after
 running for 30 seconds) and whenever I wanted to work on something I had to work my way through the spaghetti.
-It's time leave the OASE mess behind and create a new mess... in Godot.
+It's time to leave the OASE mess behind and create a new mess... in Godot.
 
 __The goal: Get the GTA Trilogy running in Godot.__
 
@@ -44,12 +44,12 @@ formats. I might still go more in depth in the file formats when I use them in a
 
 There are some things to keep in mind.
 
-1. This is not going to be a tutorial. The post will merely give you some ideas of how the GTA internals work (or at
+1. This is __not__ going to be a tutorial. The post will merely give you some ideas of how the GTA internals work (or at
    least how I interpret them) and how this can be applied in a modern engine like Godot.
-2. This won't be a one to one implementation, the goal is to get something playable, this probably means this will end
+2. This __won't__ be a one to one implementation, the goal is to get something playable, this probably means this will end
    up as the "We got GTA at home" version of the trilogy.
-3. There are currently _no_ plans to open source this project.
-4. Last but not least, this project _won't_ be vibe coded. I want this to be a learning experience.
+3. There are currently __no__ plans to open source this project.
+4. Last but not least, this project __won't__ be vibe coded. I want this to be a learning experience.
 
 With all that said, I hope you are as excited about this as I am!
 
