@@ -53,39 +53,50 @@ RwClump
 
 Let's have a look at the sections and how they relate to Godot.
 
-#### RwClump
+__RwClump__
+
 A container of a frame hierarchy and 3D data. We could create something similar using a `Node3D` with child nodes.
 
-#### RwFrameList
+__RwFrameList__
+
 List of `Frames`. 
 
-#### RwFrame
+__RwFrame__
+
 A frame has a name, positioning data and a parent ID. Frames are used to build up the hierarchy of the model. Frames can be used to position geometry, dummies or bones from a skeleton. In Godot this is again similar to a `Node3D`.
 
 In our case of `arrow.dff` this frame contains the name "arrow".
 
 __RwGeometryList__
+
 List of `Geometry`
 
 __RwGeometry__
+
 The visual representation of the model. Contains the vertex, polygon and material data. The Godot equivalent of a `Mesh`.
 
 __RwMaterialList__
+
 List of materials
 
 __RwMaterial__
+
 Material definition, contains the texture name, colors, alpha name etc.
 
 __RwBinMeshPlg__
+
 Plugin that defines how the geometry is split by materials. Which vertices / polygons use which material. Similar to a `Surface` on a `Mesh` in Godot.
 
 __RwMorphPlg__
+
 I currently don't support this in my parser, if we need it we'll probably get to it at some point.
 
 __RwAtomic__
+
 An atomic matches geometries to a frame. Making it possible to create a hierarchy of geometry. We'll need this info to setup the mesh / node hierarchy in Godot.
 
 __RwMatEffectsPlg__
+
 I currently don't support this in my parser, if we need it we'll probably get to it at some point.
 
 ## Godot
