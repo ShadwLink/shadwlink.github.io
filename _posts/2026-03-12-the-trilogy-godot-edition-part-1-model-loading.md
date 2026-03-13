@@ -17,19 +17,19 @@ serie: the-trilogy-godot-edition
 ---
 In this first part of the series we discuss model loading. Nothing more visual than rendering our first GTA model.
 
-To load a GTA model we first need to understand the original engine this game used. The original trilogy was based on the [RenderWare engine](https://en.wikipedia.org/wiki/RenderWare) (RW from now on), an engine that was very popular during the time. Many games by different developers where created on this engine, think about titles like Burnout, Tony Hawks Pro Skater 3 and Bully. It was basically the Unreal Engine of that era.
+To load a GTA model we first need to understand the original engine this game used. The original trilogy was based on the [RenderWare engine](https://en.wikipedia.org/wiki/RenderWare) (RW from now on), an engine that was very popular during the time. Many games by different developers where created on this engine, think about titles like Burnout, Tony Hawks Pro Skater 3 and Bully. It was the Unreal Engine of that era.
 
 Lucky for us this means [a lot](https://en.wikipedia.org/wiki/RenderWare#File_formats) is [known](https://gtamods.com/wiki/RenderWare_binary_stream_file) about the file formats used by RW based games. Entire tools and libraries where build to inspect the contents of RW files. One of which is called [RwAnalyze](http://steve-m.com/downloads/tools/rwanalyze/), this is still one of the best tools (22 years old by now!) to get a grasp of the basic structure of RW files.
 
 ![Screenshot of RW Analyze 0.4](/assets/images/the-trilogy-godot-edition/part-1-rwanalyze.jpg)
 
-As you can see in the above screenshot a dff file is basically a lot of 3D data stored in a tree like structure. 
+As you can see in the above screenshot a dff file is simply 3D data stored in a tree like structure. 
 
 ## An example
 
 Let's take a closer look at a pretty basic dff file. We can use Vice City's `arrow.dff` which can be found in the `/models/generic/` directory. This model has only a single mesh, no textures and is pretty much as basic as it gets.
 
-> [!NOTE]  
+> ℹ️
 > You might notice that there are not that many dff files in the models directory, which might seem odd for a game with hundreds of models. This is because most models are packed into the `gta3.img` archive file. We'll get to the details of that file in another part.
 
 ### The structure
