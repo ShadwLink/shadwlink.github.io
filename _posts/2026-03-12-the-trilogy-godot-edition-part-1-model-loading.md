@@ -95,6 +95,9 @@ __RwAtomic__
 
 An atomic matches geometries to a frame. Making it possible to create a hierarchy of geometry. We'll need this info to setup the mesh / node hierarchy in Godot.
 
+__RwParticlesPLG__
+I currently don't support this in my parser, if we need it we'll probably get to it at some point.
+
 __RwMatEffectsPlg__
 
 I currently don't support this in my parser, if we need it we'll probably get to it at some point.
@@ -122,4 +125,4 @@ With some trial and error this is the result:
 
 ![Screenshot of the GTA: VC arrow model inside Godot](/assets/images/the-trilogy-godot-edition/part-1-arrow.png)
 
-I hope you enjoyed this first part of the series. In the next part we'll take a look at loading more advanced models.
+I hope you enjoyed this first part of the series. In the next part we'll take a look at loading more complex models.
