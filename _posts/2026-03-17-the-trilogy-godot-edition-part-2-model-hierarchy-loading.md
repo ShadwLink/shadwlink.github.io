@@ -19,7 +19,7 @@ In part 2 of this series we'll take a look at slightly more complex models. Firs
 
 ## Multi geometry model
 
-Let's take a look at the model `SCHAIR.dff`. This model is the chair used by Sonny in the intro cutscene of Vice City. This model can be found in the `gta3.img` archive, you'll need an image editor to extract the model file from the archive.
+Let's take a look at the model `SCHAIR.dff`. This model is the chair used by Sonny in the [intro cutscene of Vice City](https://youtu.be/VI52cD4wmLA?t=125). This model can be found in the `gta3.img` archive, you'll need an image editor to extract the model file from the archive.
 
 If we print the RenderWare structure you can see that the tree is a bit bigger compared to the `arrow.dff` that we used in the previous part. 
 ```
