@@ -13,7 +13,8 @@ tags:
   - gta
   - game-dev
   - godot
-serie: the-trilogy-godot-edition
+serie: The Trilogy Godot Edition
+serie_paging_name: Intro
 ---
 
 As mentioned in my last post (which I apparently posted over a year ago!) I've gotten interested in the awesome open

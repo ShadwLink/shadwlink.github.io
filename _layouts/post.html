@@ -17,6 +17,23 @@ layout: default
         {{ content }}
     </div>
 
+    {%- if page.serie -%}
+    <div class="post-meta" style="text-align:center;">
+        <p>
+            This post is part of "{{ page.serie }}" series
+        </p>
+        <p>
+            {% assign sub_pages = site.posts | sort: "date" %}
+            {%- for sub_page in sub_pages -%}
+            {%- if sub_page.serie contains page.serie -%}
+            <a href="{{ sub_page.url }}">{{ sub_page.serie_paging_name }}</a>
+            {% unless forloop.last %} •&nbsp;{%- endunless -%}
+            {%- endif -%}
+            {%- endfor -%}
+        </p>
+    </div>
+    {%- endif -%}
+
     {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
     {%- endif -%}

@@ -13,7 +13,8 @@ tags:
   - gta
   - game-dev
   - godot
-serie: the-trilogy-godot-edition
+serie: The Trilogy Godot Edition
+serie_paging_name: 1
 ---
 In this first part of the series we discuss model loading. Nothing more visual than rendering our first GTA model.
 
