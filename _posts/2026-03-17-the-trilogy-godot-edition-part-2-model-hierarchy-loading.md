@@ -104,7 +104,7 @@ schair_dummy
         └── schrtop
 ```
 
-If we use the same approach as we used in [part 1](/_posts/2026-03-12-the-trilogy-godot-edition-part-1-model-loading.md) of this series to import the model into Godot we expect the following, very similar, output hierarchy.
+If we use the same approach as we used in [part 1](/_posts/2026-03-12-the-trilogy-godot-edition-part-1-model-loading.md) of this series, we expect the following, very similar, output hierarchy.
 
 ```
 Node3D
@@ -121,3 +121,5 @@ And here it is `schair` in Godot.
 Fun fact, GTA: III doesn't make use of skinned meshes for their animated characters, but instead relies on the above technique to construct its models. So here is a little screenshot of Claude:
 
 ![Claude in Godot](/assets/images/the-trilogy-godot-edition/part-2-claude.png)
+
+That's it for now, see you in part 3!
