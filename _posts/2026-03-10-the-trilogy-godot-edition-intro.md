@@ -50,7 +50,8 @@ There are some things to keep in mind.
 2. This __won't__ be a one to one implementation, the goal is to get something playable, this probably means this will end
    up as the "We got GTA at home" version of the trilogy.
 3. There are currently __no__ plans to open source this project.
-4. Last but not least, this project __won't__ be vibe coded. I want this to be a learning experience.
+4. There might __not__ be a logical order in these posts, switching from one topic to another is how my brain works and stays interested.
+5. Last but not least, this project __won't__ be vibe coded. I want this to be a learning experience.
 
 With all that said, I hope you are as excited about this as I am!
 
