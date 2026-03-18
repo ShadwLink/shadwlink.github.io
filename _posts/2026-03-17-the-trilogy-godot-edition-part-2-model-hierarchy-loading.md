@@ -123,4 +123,4 @@ Fun fact, GTA: III doesn't make use of skinned meshes for their animated charact
 
 ![Claude in Godot](/assets/images/the-trilogy-godot-edition/part-2-claude.png)
 
-That's it for now, see you in part 3!
+That's it for now, we'll get to Material and Skeleton loading in another part, but first we'll make a little sidestep and checkout collision loading!
