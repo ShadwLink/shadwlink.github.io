@@ -14,7 +14,7 @@ tags:
   - game-dev
   - godot
 serie: The Trilogy Godot Edition
-serie_paging_name: 1
+serie_paging_name: Model Part 1
 ---
 In this first part of the series we discuss model loading. Nothing more visual than rendering our first GTA model.
 
