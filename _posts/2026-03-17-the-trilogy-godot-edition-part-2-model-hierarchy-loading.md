@@ -14,7 +14,7 @@ tags:
   - game-dev
   - godot
 serie: The Trilogy Godot Edition
-serie_paging_name: 2
+serie_paging_name: Model Part 2
 ---
 In part 2 of this series we'll take a look at slightly more complex models. First up we'll take a look at a model that uses multiple geometries, this way we can see how the hierarchy is constructed. 
 
