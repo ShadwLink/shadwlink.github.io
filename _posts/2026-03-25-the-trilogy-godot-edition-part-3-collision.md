@@ -1,6 +1,6 @@
 ---
 title: The trilogy Godot Edition - Part 2 - Collision
-date: '2026-03-?T18:00:00+02:00'
+date: '2026-03-25T11:00:00+02:00'
 author: Shadow-Link
 layout: post
 permalink: /the-trilogy-godot-edition-part-3-collision/
@@ -26,14 +26,19 @@ __Why do we need separate collision models?__
 
 Physics are complex, even though we have amazing physics engines and our computers can compute millions of physic interactions per second, simulating everything using their visual representation would be impossible. The visual representation of a model is usually much more detailed than necessary for believable physics simulation.
 
-## TODO: Add explanation of box, sphere and faces and how they work
+Instead, physics of video games (and especially in the early 2000) used simplified shapes. Mostly a combination of (ordered by efficiency); spheres, boxes and basic meshes.
 
 ### The collision file format
 
-## TODO: Write a short summary of the coll file format with references
+The collision format used by the GTA Trilogy has been documented at [gtamods.com](https://gtamods.com/wiki/Collision_File).
+
+Short summary:
+- Collision files contain multiple collision entries.
+- Each collision entry can contain an array of Spheres, Boxes and a Mesh shapes.
+- The shapes can reference a material which is hardcoded in the engine.
 
 ### The ramp example
-Let's take a look at `generic.col`, this is file is a collection of multiple col files into one. Also known as a coll archive. In our example we'll focus on the entry `ramp`, this is simple collision model that uses all 3 types! A perfect example for this post.
+Let's take a look at `generic.col`, this file is a collection of multiple col files into one. Also known as a coll archive. In our example we'll focus on the entry `ramp`, this is simple collision model that uses all 3 types! A perfect example for this post.
 
 The ramp exists out of 4 shapes:
 - 2 Spheres
@@ -68,6 +73,9 @@ collisionShape.Shape = shape;
 collisionShape.Position = sphere.center;
 ```
 
+As you can see our example uses 2 spheres to cover the top of the pipes:
+![Sphere colliders](/assets/images/the-trilogy-godot-edition/collision-spheres.png)
+
 __Boxes__
 
 `BoxShape3D` requires a tiny bit more work to create compared to spheres, as the required data is defined slightly different in the coll file compared to Godots implementation.
@@ -99,6 +107,42 @@ collisionShape.Shape = shape;
 collisionShape.Position = (box.min + box.max) * 0.5f;
 ```
 
+A single box collider is used to cover the long pipe:
+![Box colliders](/assets/images/the-trilogy-godot-edition/collision-boxes.png)
+
 __Mesh__
 
-A coll file can contain a single mesh. The mesh is defined by vertices and faces.
+A coll entry can contain a single mesh. The mesh is defined by vertices and faces.
+
+We can convert the mesh to a `ConcavePolygonShape3D`
+
+Example code:
+```C#
+var collisionShape = new CollisionShape3D();
+
+// Create the mesh shape
+var meshShape = new ConcavePolygonShape3D();
+
+// Convert the face / vertex data to a triangle array
+var triangleArray = new Vector3[faces.Length * 3];
+for (int i = 0; i < faces.Length; i++)
+{
+    triangleArray[i * 3] = vertices[faces[i].a].ToVector3();
+    triangleArray[i * 3 + 1] = vertices[faces[i].b].ToVector3();
+    triangleArray[i * 3 + 2] = vertices[faces[i].c].ToVector3();
+}
+
+// Apply the triangle data to the meshShape
+meshShape.Data = triangleArray;
+
+// Set the shape
+collisionShape.Shape = meshShape;
+```
+
+The actual ramp shape is defined using the mesh collider:
+![Mesh collider](/assets/images/the-trilogy-godot-edition/collision-mesh.png)
+
+## Final result
+
+Below the full collision of the ramp:
+![Full collider](/assets/images/the-trilogy-godot-edition/collision-all.png)
