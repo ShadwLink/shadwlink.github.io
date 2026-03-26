@@ -1,9 +1,9 @@
 ---
 title: The trilogy Godot Edition - Part 4 - Map files
-date: '2026-03-?T11:00:00+02:00'
+date: '2026-03-27T11:00:00+02:00'
 author: Shadow-Link
 layout: post
-permalink: /the-trilogy-godot-edition-part-4-map/
+permalink: /the-trilogy-godot-edition-part-4-map-files/
 categories:
   - Modding
   - Games
@@ -17,6 +17,11 @@ serie: The Trilogy Godot Edition
 serie_paging_name: Map Part 1
 ---
 Now that we have model and collision loading in place. Let's put it all together and take a look at how the meshes are placed to create our beloved cities.
+
+To get to that we need to understand the structure of the game files and how those contribute to the games map.
+
+> ℹ️
+> A lot of this info is based on the knowledge shared on [gtamods.com](https://www.gtamods.com)
 
 ## DAT
 
@@ -37,7 +42,7 @@ Let's read a little bit further, the first non comment line is:
 IDE DATA\DEFAULT.IDE
 ```
 
-Now it starts to get interesting. So what does this line mean? We can split it up into two parts; `IDE` and `DATA\DEFAULT.IDE`. `IDE` is the command that tells the engine to load an IDE file als known as `Item DEfinition`, `DATA\DEFAULT.IDE` is the relative path of the ide file that should be loaded.  We'll get back to IDE files a little bit later.
+Now it starts to get interesting. So what does this line mean? We can split it up into two parts; `IDE` and `DATA\DEFAULT.IDE`. In this example `IDE` is the command that tells the engine to load an IDE file also known as `Item DEfinition`, `DATA\DEFAULT.IDE` is the relative path of the ide file that should be loaded.  We'll get back to IDE files a little bit later.
 
 Next up we see the following lines (skipping the comments).
 
@@ -115,4 +120,58 @@ The next couple of sections are not found in `default.ide` but are used by the g
 - `anim` Animated objects
 - `txdp` Texture archive extensions
 
+That's it for the IDE file, lets see how these definitions are actually referenced by IPL files.
+
 ## IPL
+
+The Item Placement files uses the exact same format as IDE files. It's a plain text file split up into sections.
+
+If we open Vice City's `airport.ipl` in a text editor you'll see the following lines.
+
+```
+inst
+865, ap_tower, 0, -1685.179443, -923.3638916, 13.48704815, 1, 1, 1, 0, 0, 0, 1
+# More entries
+end
+```
+
+Let's break it down again.
+
+The section marker is `inst` short for _instance_. This section describes which models should be placed where.
+
+Each entry has a lot of properties: `865, ap_tower, 0, -1685.179443, -923.3638916, 13.48704815, 1, 1, 1, 0, 0, 0, 1`
+
+- `865` The ID as defined in IDE files
+- `ap_tower` Model name (Not sure if this has any actual purpose as the model is also defined in the IDE)
+- `0` The interior this model belongs to
+- `-1685.179443` The X position
+- `-923.3638916` The Y position
+- `13.48704815` The Z position
+- `1` The X scale
+- `1` The Y scale
+- `1` The Z scale
+- `0` The X rotation (quaternion)
+- `0` The Y rotation (quaternion)
+- `0` The Z rotation (quaternion)
+- `1` The W rotation (quaternion)
+
+This is probably the most useful section of IPL files but lets list them all.
+
+- `cull` Defines zones with some attributes
+- `pick` Defines a pickup
+- `path` Defines paths for vehicles
+- `occl` Defines occlusion zones 
+
+The following sections are San Andreas only:
+- `grge` Defines a garage
+- `enex` Defines entry and exit markers for interiors
+- `cars` Defines a parked car generator
+- `jump` Defines a stunt jump
+- `tcyc` Something related to the timecycle
+- `auzo` Defines an audio zone
+
+## Next steps
+
+With this knowledge of the IDE and IPL files we should already be able to create something that resembles a map!
+
+We'll get to the implementation in the next post.
