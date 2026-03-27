@@ -1,5 +1,5 @@
 ---
-title: The trilogy Godot Edition - Part 3 - Collision
+title: "The Trilogy: Godot Edition - Part 3 - Collision"
 date: '2026-03-25T11:00:00+02:00'
 author: Shadow-Link
 layout: post

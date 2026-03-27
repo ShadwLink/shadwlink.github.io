@@ -34,3 +34,18 @@ layout: default
 <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
 </div>
+
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+{%- if page.serie -%}
+Posts in this series:
+<ul>
+    {% assign sub_pages = site.posts | sort: "date" %}
+    {%- for sub_page in sub_pages -%}
+    {%- if sub_page.serie contains page.serie -%}
+    <li>
+        <a href="{{ sub_page.url }}">{{ sub_page.date | date: date_format }} - {{ sub_page.title }}</a>
+    </li>
+    {%- endif -%}
+    {%- endfor -%}
+</ul>
+{%- endif -%}

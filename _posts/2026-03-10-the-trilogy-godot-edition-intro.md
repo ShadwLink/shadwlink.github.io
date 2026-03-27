@@ -1,5 +1,5 @@
 ---
-title: The trilogy Godot Edition - Intro
+title: "The Trilogy: Godot Edition - Intro"
 date: '2026-03-10T20:00:00+02:00'
 author: Shadow-Link
 layout: post

@@ -1,5 +1,5 @@
 ---
-title: The trilogy Godot Edition - Part 1 - Model loading
+title: "The Trilogy: Godot Edition - Part 1 - Model loading"
 date: '2026-03-12T21:00:00+02:00'
 author: Shadow-Link
 layout: post

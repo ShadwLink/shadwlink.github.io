@@ -1,5 +1,5 @@
 ---
-title: The trilogy Godot Edition - Part 2 - Model hierarchy loading
+title: "The Trilogy: Godot Edition - Part 2 - Model hierarchy loading"
 date: '2026-03-17T18:00:00+02:00'
 author: Shadow-Link
 layout: post
