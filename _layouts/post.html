@@ -11,6 +11,18 @@ layout: default
             </time>
         </p>
         <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+
+        {%- if page.serie -%}
+        <div class="post-meta">
+            {%- for sub_page in site.pages -%}
+            {%- if sub_page.serie == page.serie -%}
+            <p>
+                This post is part of <a href="{{ sub_page.permalink }}"> {{ page.serie }}</a> series.
+            </p>
+            {%- endif -%}
+            {%- endfor -%}
+        </div>
+        {%- endif -%}
     </header>
 
     <div class="post-content e-content" itemprop="articleBody">
@@ -20,7 +32,7 @@ layout: default
     {%- if page.serie -%}
     <div class="post-meta" style="text-align:center;">
         <p>
-            This post is part of "{{ page.serie }}" series
+            This post is part of "{{ page.serie }}" series, other posts in this series:
         </p>
         <p>
             {% assign sub_pages = site.posts | sort: "date" %}
