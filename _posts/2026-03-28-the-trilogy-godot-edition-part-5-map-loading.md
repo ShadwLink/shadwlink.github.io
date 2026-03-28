@@ -1,6 +1,6 @@
 ---
-title: The trilogy Godot Edition - Part 5 - Map loading
-date: '2026-0?-?T11:00:00+02:00'
+title: "The Trilogy: Godot Edition - Part 5 - Map loading"
+date: '2026-03-28T13:00:00+02:00'
 author: Shadow-Link
 layout: post
 permalink: /the-trilogy-godot-edition-part-5-map-loading/
