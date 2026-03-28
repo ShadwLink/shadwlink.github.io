@@ -106,7 +106,7 @@ for (var i = 0; i < ipl.Instances.Count; i++)
 }
 ```
 
-The result of this code is exactly the same as the MultiMesh implementation previously except it uses a few more draw calls, and it allows us to render different meshes for each instance.
+The result of this code is exactly the same as the MultiMesh implementation except it uses a few more draw calls, and it allows us to render different meshes for each instance.
 
 ## IDE loading
 
@@ -176,4 +176,4 @@ model.Quaternion = inst.Quaternion
 The result (no this didn't magically fix our missing textures):
 ![Golf bushes rotated](/assets/images/the-trilogy-godot-edition/map-golf-post-rotation.png)
 
-That's for this post, in the next one we'll also load collision so we don't fall through the map.
+That's it for this post, in the next one we'll also load collision so we don't fall through the map.
