@@ -29,7 +29,7 @@ serie_paging_name: Map Part 2
 
 In our example we'll be using Vice City's golf course. The golf course is located near the games center (0.0, 0.0, 0.0) which makes it convenient for quick testing.
 
-As described in my previous post the placement of objects is defined in IPL files. This file contains the location data of an object. Which means we should be able to display a bunch of boxes at the location data and already get a feel of the map. Let's go.
+As described in my previous post the placement of objects is defined in IPL files. This file contains the location data of an object. Which means we should be able to display a bunch of boxes at the location data and already get a feel of the map. 
 
 The easiest way to display a lot of boxes at certain positions is by just adding `MeshInstance3D` nodes to a scene, but this is a learning experience so we can do it a bit more efficiently. We can use `MultiMeshInstance3D`, a node specifically created to render repeating meshes efficiently, perfect for our use case!
 
@@ -159,7 +159,7 @@ And with textures. (I have to write about texture loading at some point!)
 
 ![Golf textured](/assets/images/the-trilogy-godot-edition/map-golf-textured.png)
 
-There are some things not quit right though. If we for example take a look at those bushes (besides the fact that they are textureless) they are also misplaced.
+There are some things not quite right though. If we for example take a look at those bushes (besides the fact that they are textureless) they are also misplaced.
 
 ![Golf bushes misplaced](/assets/images/the-trilogy-godot-edition/map-golf-pre-rotation.png)
 
