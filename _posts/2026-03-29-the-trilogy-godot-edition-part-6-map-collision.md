@@ -40,7 +40,7 @@ I do have an idea of how collision data is loaded, but that's all based on the f
 2. Add a coll entry with the same name as your model
 3. Add the coll archive to the IMG archive
 
-That seems easy enough, that the game just looks for a coll entry with the same name as our model in the collision archives, but when does the game load these?
+That seems easy enough, the game just looks for a coll entry with the same name as our model. But, when does the game load these?
 
 Well, back in the day it was also not uncommon to accidentally create a corrupt collision file. When you imported a corrupt coll archive the game would crash during loading with a nice popup similar to this one.
 
