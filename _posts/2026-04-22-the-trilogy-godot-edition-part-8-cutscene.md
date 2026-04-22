@@ -51,7 +51,7 @@ LOAD_SPECIAL_MODEL cut_obj4	colt1
 LOAD_SPECIAL_MODEL cut_obj5	cath
 ```
 
-We'll go into the details of the scripting language in another post (there is so much stuff to write about for this game!), for not let's go over these _opcodes_ one by one.
+We'll go into the details of the scripting language in another post (there is so much stuff to write about for this game!), for now let's go over these _opcodes_ one by one.
 
 - `MAKE_PLAYER_SAFE_FOR_CUTSCENE Player` makes sure that nothing happens to the player during the cutscene. This prevents things like the player dying during the cutscene. 
 - `SET_INTRO_IS_PLAYING` sets a flag indicating that the intro is playing, we don't know what this does exactly, but I assume other pieces of the engine use this to determine if the intro is playing. 
