@@ -1,9 +1,9 @@
 ---
-title: "The Trilogy: Godot Edition - Part 7 - Textures"
-date: '2026-04-14T21:30:00+02:00'
+title: "The Trilogy: Godot Edition - Part 8 - Cutscenes"
+date: '2026-04-22T19:30:00+02:00'
 author: Shadow-Link
 layout: post
-permalink: /the-trilogy-godot-edition-part-7-textures/
+permalink: /the-trilogy-godot-edition-part-8-cutscenes/
 categories:
   - Modding
   - Games
@@ -94,14 +94,14 @@ Again let's go over the opcodes one by one.
 - `SET_CUTSCENE_HEAD_ANIM` Applies the `cat` animation from `bet_cat.anm` to Catalina's head.
 - `START_CUTSCENE` Starts the cutscene.
 
-That's quite some setup to play a single cutscene! To replicate the cutscene we have to do the same steps in Godot.
+That's quite some setup to play a single cutscene! To replicate the cutscene we have to do the same steps in Godot. In the next few posts I'll describe the steps to get this cutscene playing.
 
-Let's get to it!
+## The map
 
-### Cutscene playback
-
-First of all let's make sure the map is loaded, the intro cutscene is located at `-559.65 1030.56 40.0` which should load if we load the map data from the `landsw` directory.
+First of all we have to make sure the map is loaded, the intro cutscene is located at `-559.65 1030.56 40.0` which should load if we load the map data from the `landsw` directory.
 
 ![Into cutscene map](/assets/images/the-trilogy-godot-edition/cutscene-intro-1.png)
 
 Rendering is a bit off, but it's good enough for now! 
+
+In the next post we'll take a look at camera movement data found in `bet.dat`.
