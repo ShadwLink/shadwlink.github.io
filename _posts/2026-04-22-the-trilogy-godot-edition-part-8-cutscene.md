@@ -1,9 +1,9 @@
 ---
-title: "The Trilogy: Godot Edition - Part 9 - Cutscene camera"
-date: '2026-04-26T07:42:00+02:00'
+title: "The Trilogy: Godot Edition - Part 8 - Cutscene"
+date: '2026-04-22T19:30:00+02:00'
 author: Shadow-Link
 layout: post
-permalink: /the-trilogy-godot-edition-part-9-cutscene-camera/
+permalink: /the-trilogy-godot-edition-part-8-cutscene/
 categories:
   - Modding
   - Games
@@ -14,7 +14,7 @@ tags:
   - game-dev
   - godot
 serie: The Trilogy Godot Edition
-serie_paging_name: Cutscene 2
+serie_paging_name: Cutscene 1
 ---
 
 > _Sorry babe, I'm an ambitious girl and you, you're just small time._

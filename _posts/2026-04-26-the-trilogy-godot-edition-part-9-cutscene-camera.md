@@ -1,6 +1,6 @@
 ---
 title: "The Trilogy: Godot Edition - Part 9 - Cutscene camera"
-date: '2026-04-30T21:30:00+02:00'
+date: '2026-04-26T07:42:00+02:00'
 author: Shadow-Link
 layout: post
 permalink: /the-trilogy-godot-edition-part-9-cutscene-camera/
