@@ -1,9 +1,9 @@
 ---
-title: "The Trilogy: Godot Edition - Part 8 - Cutscenes"
-date: '2026-04-22T19:30:00+02:00'
+title: "The Trilogy: Godot Edition - Part 9 - Cutscene camera"
+date: '2026-04-26T07:42:00+02:00'
 author: Shadow-Link
 layout: post
-permalink: /the-trilogy-godot-edition-part-8-cutscenes/
+permalink: /the-trilogy-godot-edition-part-9-cutscene-camera/
 categories:
   - Modding
   - Games
@@ -14,7 +14,7 @@ tags:
   - game-dev
   - godot
 serie: The Trilogy Godot Edition
-serie_paging_name: Cutscene 1
+serie_paging_name: Cutscene 2
 ---
 
 > _Sorry babe, I'm an ambitious girl and you, you're just small time._
@@ -100,7 +100,7 @@ That's quite some setup to play a single cutscene! To replicate the cutscene we 
 
 First of all we have to make sure the map is loaded, the intro cutscene is located at `-559.65 1030.56 40.0` which should load if we load the map data from the `landsw` directory.
 
-![Into cutscene map](/assets/images/the-trilogy-godot-edition/cutscene-intro-1.png)
+![Intro cutscene map](/assets/images/the-trilogy-godot-edition/cutscene-intro-1.png)
 
 Rendering is a bit off, but it's good enough for now! 
 
