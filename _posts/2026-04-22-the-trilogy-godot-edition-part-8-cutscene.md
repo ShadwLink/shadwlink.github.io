@@ -86,6 +86,7 @@ Again let's go over the opcodes one by one.
   - `bet.ifp` the key frame animation data
   - `bet.dat` the camera movement data
   - `bet_cat.anm` Catalina's head animation data
+  - `bet.mp3` from the audio directory
 - `LOAD_SCENE` Tells the engine to load the scene at a specific location
 - `SET_CUTSCENE_OFFSET` Cutscene data is based on a local coordinate system (0.0, 0.0, 0.0). To play the cutscene at the correct location an offset is applied.
 - `CREATE_CUTSCENE_OBJECT PED_SPECIAL4 cs_player` Creates a new cutscene object with model `PED_SPECIAL4` stored in variable `cs_player`
