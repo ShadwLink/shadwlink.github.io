@@ -1,6 +1,7 @@
 ---
 title: "The Trilogy: Godot Edition - Part 8 - Cutscene"
 date: '2026-04-22T19:30:00+02:00'
+last_updated: '2026-04-27T06:40:00+02:00'
 author: Shadow-Link
 layout: post
 permalink: /the-trilogy-godot-edition-part-8-cutscene/
