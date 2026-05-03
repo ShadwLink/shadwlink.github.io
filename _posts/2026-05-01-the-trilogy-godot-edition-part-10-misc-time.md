@@ -27,9 +27,37 @@ Let's implement a basic in game clock. First we create a new `Node` and add a sc
 
 // TODO: Add Clock code
 
+## HUD
+
+Now that we have a ticking clock we would like to display it on screen. We can do this by adding a `Label` control node to our scene. 
+
+All we have to do is hook up our clock to the label. But how? Let's start by defining a [signal](https://docs.godotengine.org/en/stable/classes/class_signal.html) in our clock class and calling it when the time has changed.
+
+```C#
+[Signal]
+public delegate void OnTimeChangedEventHandler(int hours, int minutes);
+
+public override void _Process(double delta)
+{
+    // Update code
+    
+    // Emit signal when the time has actually changed
+    EmitSignalOnTimeChanged(_hours, _minutes);
+}
+```
+
+And finally hook up our signal to our time label and set the text:
+
+```C#
+public void _OnTimeChanged(int hours, int minutes)
+{
+    Text = $"{hours:00}:{minutes:00}";
+}
+```
+
 ## Mission script
 
-Our clock can be adjusted by the mission script, with so-called opcodes. We are going to need methods for the following opcodes:
+Our clock can be adjusted by the mission script with so-called opcodes. We are going to need methods for the following opcodes:
 - [00BF: GET_TIME_OF_DAY](https://gtag.sannybuilder.com/opcode-database/opcode/00BF/)
 - [00C0: SET_TIME_OF_DAY](https://gtag.sannybuilder.com/opcode-database/opcode/00C0/)
 - [00C1: GET_MINUTES_TO_TIME_OF_DAY](https://gtag.sannybuilder.com/opcode-database/opcode/00C1/)
